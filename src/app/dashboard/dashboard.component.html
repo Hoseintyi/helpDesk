@@ -1,3 +1,22 @@
-<div class="row">
-    
-</div>
+
+    <div class="row">
+        <div class="container col-md-12">
+            <table class="table  table-bordered  ">
+                <thead>
+                  <tr>
+                    <th scope="col">نام</th>
+                    <th scope="col">تعداد شیفت عادی</th>
+                    <th scope="col">تعداد شیفت تعطیل</th>
+                    <th scope="col">تعداد آف </th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let nafar of nafarat" > 
+                        <td> {{nafar}} </td>
+                    </tr >
+                </tbody>
+              </table>
+        </div>
+     
+    </div>
+
